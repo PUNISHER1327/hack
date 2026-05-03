@@ -10,7 +10,11 @@ const Footer = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand Col */}
+<<<<<<< HEAD
           <div className="md:col-span-1">
+=======
+          <div className="md:col-span-1 md:pr-8 lg:pr-12">
+>>>>>>> f758ac6 (Added my changes)
             <div className="text-3xl font-orbitron font-black tracking-tighter flex items-center gap-2 mb-6">
               <span className="text-orangeAccent">HACK</span>
               <span className="text-neonBlue">SPRINT</span>

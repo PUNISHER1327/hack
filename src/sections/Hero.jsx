@@ -94,9 +94,15 @@ const Hero = () => {
               <span className="relative z-10">REGISTER NOW</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-in-out" />
             </button>
+<<<<<<< HEAD
             <button className="px-10 py-4 bg-transparent border-2 border-neonBlue text-neonBlue font-orbitron font-bold tracking-widest rounded-sm hover:bg-neonBlue hover:text-white transition-all duration-300 glow-blue">
               EXPLORE DOMAINS
             </button>
+=======
+            <a href="#domains" className="px-10 py-4 inline-flex items-center justify-center bg-transparent border-2 border-neonBlue text-neonBlue font-orbitron font-bold tracking-widest rounded-sm hover:bg-neonBlue hover:text-white transition-all duration-300 glow-blue">
+              EXPLORE DOMAINS
+            </a>
+>>>>>>> f758ac6 (Added my changes)
           </motion.div>
         </motion.div>
 
