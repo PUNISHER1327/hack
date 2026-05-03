@@ -10,10 +10,8 @@ import WhyParticipate from './sections/WhyParticipate';
 import Timeline from './sections/Timeline';
 import TracksAndChallenges from './sections/TracksAndChallenges';
 import Mentors from './sections/Mentors';
-<<<<<<< HEAD
+
 import Workshops from './sections/Workshops';
-=======
->>>>>>> f758ac6 (Added my changes)
 import Sponsors from './sections/Sponsors';
 import VenueExperience from './sections/VenueExperience';
 import FAQ from './sections/FAQ';
@@ -65,14 +63,14 @@ function App() {
       <Domains />
       <WhyParticipate />
       <Timeline />
-<<<<<<< HEAD
+
       <TracksAndChallenges />
       <Mentors />
       <Workshops />
-=======
+
       {/* <TracksAndChallenges /> */}
       <Mentors />
->>>>>>> f758ac6 (Added my changes)
+
       <Sponsors />
       <VenueExperience />
       <FAQ />

@@ -50,18 +50,17 @@ const PrizePool = () => {
           <p className="font-orbitron text-mutedText text-xl tracking-widest mt-4">WORTH EXCITING PRIZES & SWAGS!</p>
         </div>
 
-<<<<<<< HEAD
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
           <PrizeCard icon={FaTrophy} title="WINNER" amount="25,000" color="orange" />
           <PrizeCard icon={FaMedal} title="RUNNER UP" amount="15,000" color="blue" />
           <PrizeCard icon={FaLightbulb} title="BEST INNOVATION" amount="10,000" color="orange" />
           <PrizeCard icon={FaRobot} title="AI TRACK" amount="5,000" color="blue" />
           <PrizeCard icon={FaMicrochip} title="IOT TRACK" amount="5,000" color="orange" />
-=======
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
           <PrizeCard icon={FaTrophy} title="WINNER" amount="12,500" color="orange" />
           <PrizeCard icon={FaMedal} title="RUNNER UP" amount="7,500" color="blue" />
->>>>>>> f758ac6 (Added my changes)
         </div>
 
         <motion.div 
@@ -79,13 +78,13 @@ const PrizePool = () => {
               <p className="text-sm text-mutedText">Certificates, Goodies, and Internship opportunities for top performers.</p>
             </div>
           </div>
-<<<<<<< HEAD
+
           <button className="px-10 py-4 bg-transparent border border-white/20 hover:border-neonBlue transition-all text-white font-orbitron text-sm tracking-widest">
             VIEW FULL BREAKDOWN
           </button>
-=======
+
           
->>>>>>> f758ac6 (Added my changes)
+
         </motion.div>
       </div>
     </section>
