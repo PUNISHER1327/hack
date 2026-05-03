@@ -2,12 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const timelineData = [
-  { stage: '01', title: 'REGISTRATIONS OPEN', date: 'APRIL 15, 2026', desc: 'Secure your spot in the most awaited hackathon.', side: 'left' },
-  { stage: '02', title: 'TEAM SHORTLISTING', date: 'MAY 10, 2026', desc: 'Selected teams will be notified for the main event.', side: 'right' },
-  { stage: '03', title: 'WORKSHOP DAY', date: 'MAY 20, 2026', desc: 'Pre-hackathon training on AI, IoT and Pitching.', side: 'left' },
-  { stage: '04', title: 'HACKSPRINT DAY 1', date: 'MAY 22, 2026', desc: 'The 24-hour coding marathon begins at 9:00 AM.', side: 'right' },
-  { stage: '05', title: 'FINAL PRESENTATION', date: 'MAY 23, 2026', desc: 'Demo your innovation to the panel of judges.', side: 'left' },
-  { stage: '06', title: 'WINNERS ANNOUNCED', date: 'MAY 23, 2026', desc: 'Closing ceremony and prize distribution.', side: 'right' },
+  { stage: '01', title: 'REGISTRATIONS START', date: 'MAY 04, 2026', desc: 'Secure your spot and select your domains.', side: 'left' },
+  { stage: '02', title: 'IDEA SUBMISSION DEADLINE', date: 'MAY 17, 2026', desc: 'Submit your innovative idea PPT via the official portal.', side: 'right' },
+  { stage: '03', title: 'SHORTLIST ANNOUNCEMENT', date: 'MAY 18, 2026', desc: 'Selected teams will be notified for the next phase.', side: 'left' },
+  { stage: '04', title: 'FINAL REGISTRATION & PAYMENT', date: 'MAY 20, 2026', desc: 'Complete the registration fee payment of ₹600 per team.', side: 'right' },
+  { stage: '05', title: 'THE GRAND FINALE', date: 'MAY 22-23, 2026', desc: 'The 24-hour on-site coding marathon at PESCE campus.', side: 'left' },
 ];
 
 const TimelineItem = ({ item, index }) => (

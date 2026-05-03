@@ -9,14 +9,14 @@ const DomainCard = ({ icon: Icon, title, description, color, accent }) => (
   >
     {/* Border Animation */}
     <div className={`absolute inset-0 border-2 border-transparent transition-all duration-500 group-hover:border-${accent} rounded-xl`} />
-    
+
     <div className={`w-24 h-24 rounded-full flex items-center justify-center mb-8 text-5xl transition-all duration-500 bg-${color}/10 text-${color} text-glow-${color} group-hover:scale-125`}>
       <Icon />
     </div>
-    
+
     <h3 className="font-orbitron text-2xl font-black text-whiteText mb-4 tracking-tighter uppercase">{title}</h3>
     <p className="text-mutedText font-inter leading-relaxed mb-6">{description}</p>
-    
+
     <div className="mt-auto pt-6 w-full border-t border-white/5 flex items-center justify-center gap-2 text-xs font-orbitron text-white/40 tracking-[0.2em]">
       <span>EXPLORE</span>
       <div className={`w-2 h-2 rounded-full bg-${color} animate-pulse`} />
@@ -38,7 +38,7 @@ const Domains = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div className="max-w-2xl">
-            <motion.span 
+            <motion.span
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -46,7 +46,7 @@ const Domains = () => {
             >
               CHOOSE YOUR ARENA
             </motion.span>
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -66,30 +66,30 @@ const Domains = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <DomainCard 
-            icon={FaBrain} 
-            title="Artificial Intelligence" 
+          <DomainCard
+            icon={FaBrain}
+            title="Artificial Intelligence"
             description="Build the future with Generative AI, Machine Learning models, and intelligent automation systems."
             color="neonBlue"
             accent="neonBlue"
           />
-          <DomainCard 
-            icon={FaLeaf} 
-            title="Agritech / Healthtech" 
-            description="Solve critical challenges in agriculture and healthcare using technology for a sustainable tomorrow."
+          <DomainCard
+            icon={FaLeaf}
+            title="Agritech"
+            description="Solve critical challenges in agriculture using technology for a sustainable tomorrow."
             color="orangeAccent"
             accent="orangeAccent"
           />
-          <DomainCard 
-            icon={FaWifi} 
-            title="Internet of Things" 
+          <DomainCard
+            icon={FaWifi}
+            title="Internet of Things"
             description="Connect the physical world with the digital realm through smart sensors and integrated networks."
             color="neonBlue"
             accent="neonBlue"
           />
         </div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}

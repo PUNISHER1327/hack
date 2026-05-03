@@ -38,25 +38,29 @@ const About = () => {
           className="flex flex-col gap-8"
         >
           <div className="glass-panel p-8 relative group">
-            <div className="absolute top-0 right-0 p-4 font-orbitron text-[10px] text-white/20">DATA_BLOCK_A</div>
+            <div className="absolute top-0 right-0 p-4 font-orbitron text-[10px] text-neonBlue/20">MANIFESTO_FRAGMENT_v6.0</div>
             <p className="text-mutedText font-inter text-lg leading-relaxed">
-              HackSprint 6.0 is the flagship 24-hour hackathon organized by <span className="text-whiteText font-bold">P.E.S. College of Engineering, Mandya</span>. In collaboration with IEEE PES SBC, Bangalore Section, and Mysore Subsection, we bring you an arena where the brightest minds converge to solve real-world problems.
+              HackSprint 6.0 is more than just a coding competition; it's a <span className="text-whiteText font-bold">high-intensity 24-hour national-level endurance challenge</span> organized by P.E.S. College of Engineering, Mandya. In elite collaboration with the IEEE Student Chapter and global tech partners, we've engineered an arena where innovation, scalability, and social impact converge.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-6">
             <div className="glass-panel p-6 border-l-4 border-l-neonBlue">
-              <h4 className="font-orbitron text-whiteText text-sm font-bold mb-2">OPEN INNOVATION</h4>
-              <p className="text-xs text-mutedText leading-relaxed">Build anything that changes the world using AI, IoT, or any tech stack.</p>
+              <h4 className="font-orbitron text-whiteText text-sm font-bold mb-2">PROTOTYPE SCALE</h4>
+              <p className="text-xs text-mutedText leading-relaxed">Transform raw ideas into production-ready prototypes within a single day of focused execution.</p>
             </div>
             <div className="glass-panel p-6 border-l-4 border-l-orangeAccent">
-              <h4 className="font-orbitron text-whiteText text-sm font-bold mb-2">IEEE BACKED</h4>
-              <p className="text-xs text-mutedText leading-relaxed">Gain recognition and certificates from globally recognized IEEE sections.</p>
+              <h4 className="font-orbitron text-whiteText text-sm font-bold mb-2">EXPERT MENTORSHIP</h4>
+              <p className="text-xs text-mutedText leading-relaxed">Work alongside industry leaders and academic veterans to refine your technical architecture.</p>
             </div>
           </div>
 
           <p className="text-mutedText font-inter text-lg leading-relaxed">
-            From Artificial Intelligence to sustainable Agritech, HackSprint 6.0 is designed to push your technical boundaries. It's not just a competition; it's a launchpad for the next generation of tech leaders.
+            The journey begins with a rigorous nationwide screening, where teams submit their most ambitious concepts via detailed PPT proposals. From this massive pool of talent, only the <span className="text-whiteText font-bold">top 60 elite teams—20 from each specialized domain</span>—are selected to converge at the PESCE campus for the final 24-hour sprint.
+          </p>
+
+          <p className="text-mutedText font-inter text-lg leading-relaxed">
+            Participants dive deep into three critical technological frontiers: <span className="text-neonBlue font-bold">Artificial Intelligence</span> (focusing on Predictive Analytics, Computer Vision, and NLP), <span className="text-orangeAccent font-bold">Agritech</span> (pioneering Precision Farming and Sustainable Agri-solutions), and <span className="text-neonBlue font-bold">Smart IoT Systems</span> (architecting Automation and Smart City Infrastructure). HackSprint 6.0 provides the network and the pressure-cooker environment needed to launch the next generation of technical leaders.
           </p>
 
           <button className="font-orbitron text-neonBlue flex items-center gap-4 group w-fit">

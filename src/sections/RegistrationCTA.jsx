@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaDiscord, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 
 const RegistrationCTA = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 19, hours: 14, mins: 52, secs: 10 });
@@ -67,10 +67,6 @@ const RegistrationCTA = () => {
           <button className="px-12 py-6 bg-orangeAccent text-white font-orbitron font-black tracking-[0.4em] rounded-sm hover:scale-105 active:scale-95 transition-all glow-orange group relative overflow-hidden text-lg">
             <span className="relative z-10 flex items-center gap-4">REGISTER NOW <FaArrowRight /></span>
             <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
-          </button>
-          
-          <button className="px-12 py-6 bg-transparent border-2 border-white/10 hover:border-neonBlue text-white font-orbitron font-black tracking-[0.4em] rounded-sm hover:scale-105 active:scale-95 transition-all group flex items-center gap-4 text-lg">
-            <FaDiscord className="text-2xl text-neonBlue" /> JOIN DISCORD
           </button>
         </div>
         

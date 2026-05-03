@@ -47,14 +47,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="p-8 glass-panel border-dashed border-white/10 relative overflow-hidden group">
-                <div className="absolute top-0 right-0 p-4 font-orbitron text-[10px] text-neonBlue/20">STATUS: ONLINE</div>
-                <p className="font-orbitron text-whiteText text-sm font-bold mb-2">JOIN OUR DISCORD</p>
-                <p className="text-mutedText text-xs leading-relaxed mb-6">Get instant support from mentors and meet other participants.</p>
-                <button className="text-neonBlue font-orbitron text-[10px] font-bold tracking-[0.2em] flex items-center gap-2 group-hover:gap-4 transition-all">
-                  INVITE_LINK_001 <span className="text-lg">→</span>
-                </button>
-              </div>
+
             </div>
           </div>
 

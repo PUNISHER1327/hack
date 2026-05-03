@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaDiscord, FaLinkedin } from 'react-icons/fa';
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -58,8 +58,8 @@ const Navbar = () => {
         {/* Right: Actions */}
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-3 text-white/60">
-            <a href="#" className="hover:text-neonBlue transition-colors text-xl"><FaDiscord /></a>
-            <a href="#" className="hover:text-neonBlue transition-colors text-xl"><FaLinkedin /></a>
+
+
           </div>
           <button className="px-6 py-2 bg-transparent border border-neonBlue text-neonBlue font-orbitron text-sm tracking-widest rounded-sm hover:bg-neonBlue hover:text-white transition-all duration-300 glow-blue overflow-hidden relative group">
             <span className="relative z-10">REGISTER</span>

@@ -39,25 +39,17 @@ const VenueExperience = () => {
               </div>
             </div>
             
-<<<<<<< HEAD
-            <button className="flex items-center gap-4 group">
-=======
             <a
               href="https://www.google.com/maps/place/PES+College+of+Engineering/@12.5173164,76.8774449,17z/data=!4m7!3m6!1s0x3bafa0fa2477e217:0x7f46df666eecd99!8m2!3d12.5173164!4d76.8800198!10e1!16zL20vMDloNnBt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-4 group"
             >
->>>>>>> f758ac6 (Added my changes)
               <div className="w-12 h-12 rounded-full border border-orangeAccent flex items-center justify-center text-orangeAccent group-hover:bg-orangeAccent group-hover:text-white transition-all">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
               </div>
               <span className="font-orbitron text-sm font-bold tracking-widest text-whiteText">OPEN IN MAPS</span>
-<<<<<<< HEAD
-            </button>
-=======
             </a>
->>>>>>> f758ac6 (Added my changes)
           </div>
 
           {/* Gallery - Grid Layout */}
@@ -67,42 +59,26 @@ const VenueExperience = () => {
               className="col-span-8 row-span-7 rounded-xl overflow-hidden glass-panel relative group"
             >
               <div className="absolute inset-0 bg-neonBlue/20 mix-blend-overlay group-hover:opacity-0 transition-opacity" />
-<<<<<<< HEAD
-              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="Venue 1" />
-=======
               <img src="/1.png" className="w-full h-full object-cover" alt="Venue 1" />
->>>>>>> f758ac6 (Added my changes)
             </motion.div>
             <motion.div 
               whileHover={{ scale: 1.05, zIndex: 10 }}
               className="col-span-4 row-span-5 rounded-xl overflow-hidden glass-panel relative group"
             >
               <div className="absolute inset-0 bg-orangeAccent/20 mix-blend-overlay group-hover:opacity-0 transition-opacity" />
-<<<<<<< HEAD
-              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="Venue 2" />
-=======
               <img src="/2.png" className="w-full h-full object-cover" alt="Venue 2" />
->>>>>>> f758ac6 (Added my changes)
             </motion.div>
             <motion.div 
               whileHover={{ scale: 1.05, zIndex: 10 }}
               className="col-span-4 row-span-7 rounded-xl overflow-hidden glass-panel relative group"
             >
-<<<<<<< HEAD
-              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="Venue 3" />
-=======
               <img src="/4.png" className="w-full h-full object-cover" alt="Venue 3" />
->>>>>>> f758ac6 (Added my changes)
             </motion.div>
             <motion.div 
               whileHover={{ scale: 1.05, zIndex: 10 }}
               className="col-span-8 row-span-5 rounded-xl overflow-hidden glass-panel relative group"
             >
-<<<<<<< HEAD
-              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="Venue 4" />
-=======
               <img src="/3.png" className="w-full h-full object-cover" alt="Venue 4" />
->>>>>>> f758ac6 (Added my changes)
             </motion.div>
           </div>
         </div>

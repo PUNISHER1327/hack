@@ -37,8 +37,8 @@ const FAQItem = ({ question, answer }) => {
 const FAQ = () => {
   const faqs = [
     { question: "Who can participate?", answer: "HackSprint 6.0 is open to all students currently enrolled in any undergraduate or postgraduate program. Both beginners and experts are welcome!" },
-    { question: "What is the team size?", answer: "Teams can consist of 2 to 4 members. You can also register individually and we'll help you find a team on our Discord server." },
-    { question: "Is there a registration fee?", answer: "No, HackSprint 6.0 is completely free for all participants. Food, swag, and certificates are on us!" },
+    { question: "What is the team size?", answer: "Teams can consist of 3 to 4 members. You can register as a complete team or individually if you already have a group planned." },
+    { question: "Is there a registration fee?", answer: "Yes, once a team is shortlisted, they are required to complete a registration payment of ₹600 per team by 20th May 2026." },
     { question: "What should I bring?", answer: "Bring your laptop, charger, and any hardware components you might need for your project. Don't forget your enthusiasm!" },
     { question: "Are cross-college teams allowed?", answer: "Yes, teams can have members from different colleges. We encourage collaboration across institutions." },
     { question: "What is the judging criteria?", answer: "Projects will be judged based on Innovation, Technical Complexity, UI/UX, and the Impact of the solution." },

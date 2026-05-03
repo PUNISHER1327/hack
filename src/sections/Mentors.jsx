@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaTwitter, FaGlobe } from 'react-icons/fa';
+import { FaTwitter, FaGlobe } from 'react-icons/fa';
 
 const MentorCard = ({ name, role, expertise, image }) => (
   <motion.div
@@ -25,7 +25,7 @@ const MentorCard = ({ name, role, expertise, image }) => (
     <p className="text-sm text-mutedText leading-relaxed mb-6 italic">{expertise}</p>
     
     <div className="flex justify-center gap-4 text-white/40">
-      <a href="#" className="hover:text-neonBlue transition-colors"><FaLinkedin /></a>
+
       <a href="#" className="hover:text-neonBlue transition-colors"><FaTwitter /></a>
     </div>
   </motion.div>

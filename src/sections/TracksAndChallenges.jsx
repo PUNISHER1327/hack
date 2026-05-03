@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCode, FaRobot, FaMicrochip, FaGlobe, FaShieldAlt } from 'react-icons/fa';
+import { FaRobot, FaMicrochip, FaLeaf } from 'react-icons/fa';
 
-const ChallengeCard = ({ title, icon: Icon, difficulty, prize, description }) => (
+const ChallengeCard = ({ title, icon: Icon, difficulty, description }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -16,7 +16,6 @@ const ChallengeCard = ({ title, icon: Icon, difficulty, prize, description }) =>
       </div>
       <div className="flex flex-col items-end gap-1">
         <span className="text-[10px] font-orbitron px-2 py-1 bg-white/5 rounded border border-white/10 text-mutedText">DIFF: {difficulty}</span>
-        <span className="text-[10px] font-orbitron px-2 py-1 bg-orangeAccent/10 rounded border border-orangeAccent/20 text-orangeAccent">PRIZE: {prize}</span>
       </div>
     </div>
     
@@ -34,10 +33,9 @@ const ChallengeCard = ({ title, icon: Icon, difficulty, prize, description }) =>
 
 const TracksAndChallenges = () => {
   const challenges = [
-    { title: "AI/ML Innovations", icon: FaRobot, difficulty: "ELITE", prize: "₹5,000", description: "Build models that solve real-world problems using NLP, CV, or LLMs." },
-    { title: "Smart City IoT", icon: FaMicrochip, difficulty: "PRO", prize: "₹5,000", description: "Create integrated hardware solutions for urban sustainability and smart infrastructure." },
-    { title: "Web3/Blockchain", icon: FaGlobe, difficulty: "ELITE", prize: "₹5,000", description: "Develop decentralized applications with security and transparency at the core." },
-    { title: "Cybersecurity", icon: FaShieldAlt, difficulty: "HARD", prize: "₹5,000", description: "Design systems that detect threats or protect sensitive data in the digital age." },
+    { title: "AI/ML Innovations", icon: FaRobot, difficulty: "ELITE", description: "Build models that solve real-world problems using NLP, CV, or LLMs." },
+    { title: "Agritech Solutions", icon: FaLeaf, difficulty: "HARD", description: "Develop innovative solutions for precision farming, crop monitoring, and agricultural sustainability." },
+    { title: "Smart City IoT", icon: FaMicrochip, difficulty: "PRO", description: "Create integrated hardware solutions for urban sustainability and smart infrastructure." },
   ];
 
   return (
@@ -60,7 +58,7 @@ const TracksAndChallenges = () => {
           </motion.h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
           {challenges.map((c, i) => (
             <ChallengeCard key={i} {...c} />
           ))}
