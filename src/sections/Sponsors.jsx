@@ -4,10 +4,12 @@ import { motion } from 'framer-motion';
 const Sponsors = () => {
   const sponsors = [
     { name: "PESCE", logo: "/pesce_logo.png" },
+    { name: "IEEE Bangalore Section", logo: "https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg" },
+    { name: "IEEE PESCE", logo: "/ieee_pesce_logo.png" },
   ];
 
   return (
-    <section id="sponsors" className="py-40 bg-background relative overflow-hidden">
+    <section id="sponsors" className="py-20 bg-background relative overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-5 pointer-events-none" />
       
       <div className="container mx-auto px-6 mb-12 text-center">
@@ -28,15 +30,15 @@ const Sponsors = () => {
       </div>
 
       {/* Marquee Wrapper */}
-      <div className="relative flex overflow-hidden py-32 bg-surface/30 backdrop-blur-sm border-y border-white/5">
+      <div className="relative flex overflow-hidden py-12 bg-surface/30 backdrop-blur-sm border-y border-white/5">
         <div className="animate-marquee flex items-center gap-64 whitespace-nowrap px-20">
-          {/* Repeat many times to ensure full width coverage for single sponsor */}
-          {Array(10).fill(sponsors[0]).map((s, i) => (
-            <div key={i} className="flex flex-col items-center justify-center grayscale hover:grayscale-0 transition-all duration-500 hover:scale-110 cursor-pointer">
+          {/* Repeat multiple times to ensure full width coverage */}
+          {[...sponsors, ...sponsors, ...sponsors, ...sponsors, ...sponsors].map((s, i) => (
+            <div key={i} className="flex flex-col items-center justify-center transition-all duration-500 hover:scale-110 cursor-pointer">
               <img 
                 src={s.logo} 
                 alt={s.name} 
-                className="h-32 md:h-48 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" 
+                className={`h-32 md:h-48 w-auto object-contain opacity-90 hover:opacity-100 transition-all ${s.name === "PESCE" ? "scale-125" : ""}`} 
               />
               <span className="font-orbitron text-sm md:text-base text-white/40 mt-10 tracking-[0.5em] font-bold">{s.name.toUpperCase()}</span>
             </div>
@@ -44,7 +46,7 @@ const Sponsors = () => {
         </div>
       </div>
 
-      <div className="mt-20 text-center">
+      <div className="mt-10 text-center">
         <p className="text-mutedText font-orbitron text-sm mb-6">WANT TO PARTNER WITH US?</p>
         <button className="px-10 py-4 border border-neonBlue text-neonBlue font-orbitron text-xs tracking-widest hover:bg-neonBlue hover:text-white transition-all glow-blue">
           BECOME A SPONSOR

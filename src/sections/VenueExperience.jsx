@@ -27,16 +27,6 @@ const VenueExperience = () => {
               <p className="text-mutedText leading-relaxed mb-6">
                 Located in the heart of Mandya, our campus provides the perfect blend of traditional architecture and modern tech facilities. The hackathon will take place in the state-of-the-art auditorium and innovation labs.
               </p>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 bg-white/5 border border-white/10 rounded">
-                  <p className="text-[10px] font-orbitron text-neonBlue mb-1">CAPACITY</p>
-                  <p className="text-lg font-bebas text-white">500+ HACKERS</p>
-                </div>
-                <div className="p-4 bg-white/5 border border-white/10 rounded">
-                  <p className="text-[10px] font-orbitron text-neonBlue mb-1">CONNECTIVITY</p>
-                  <p className="text-lg font-bebas text-white">GIGABIT WIFI</p>
-                </div>
-              </div>
             </div>
             
             <a

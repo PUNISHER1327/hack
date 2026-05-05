@@ -24,6 +24,11 @@ const Contact = () => {
               HAVE A <span className="text-glow-orange text-orangeAccent">QUERY?</span>
             </motion.h2>
 
+            <p className="text-mutedText font-inter text-sm mb-12">
+              Have questions or need technical support? Our team is available 24/7 to help you out.<br/>
+              Email: <a href="mailto:hacksprint6.0@pesce.ac.in" className="text-neonBlue hover:underline">hacksprint6.0@pesce.ac.in</a>
+            </p>
+
             <div className="space-y-12">
               <div className="flex gap-8 group">
                 <div className="w-16 h-16 rounded-lg glass-panel flex items-center justify-center text-neonBlue text-2xl group-hover:glow-blue transition-all">
@@ -31,8 +36,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-orbitron text-whiteText font-bold mb-1 tracking-widest text-sm">FACULTY COORDINATORS</h4>
-                  <p className="text-mutedText text-sm mb-1">Dr. Punith Kumar M B</p>
-                  <p className="text-mutedText text-sm">Dr. Vinaykumar H S</p>
+                  <p className="text-mutedText text-sm mb-1">Dr. Punith Kumar M B: +91 98444 82308</p>
+                  <p className="text-mutedText text-sm">Dr. Vinaykumar H S: +91 91644 70009</p>
                 </div>
               </div>
 
@@ -42,8 +47,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-orbitron text-whiteText font-bold mb-1 tracking-widest text-sm">STUDENT COORDINATORS</h4>
-                  <p className="text-mutedText text-sm mb-1">Sonal H</p>
-                  <p className="text-mutedText text-sm">Ashwin S</p>
+                  <p className="text-mutedText text-sm mb-1">Sonal H: +91 95917 87616</p>
+                  <p className="text-mutedText text-sm mb-1">Ashwin S: +91 89517 28170</p>
+                  <p className="text-mutedText text-sm">Mahendra Reddy: +91 74160 01477</p>
                 </div>
               </div>
 

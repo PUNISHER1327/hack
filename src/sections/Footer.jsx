@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-3 text-mutedText text-sm">
           <FaEnvelope className="text-neonBlue" />
-          <span>contact@hacksprint.tech</span>
+          <span>hacksprint6.0@pesce.ac.in</span>
         </div>
         <div className="flex items-center gap-3 text-mutedText text-sm">
           <FaPhoneAlt className="text-neonBlue" />
