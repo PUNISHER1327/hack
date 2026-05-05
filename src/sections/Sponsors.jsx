@@ -10,7 +10,7 @@ const Sponsors = () => {
     <section id="sponsors" className="py-40 bg-background relative overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-5 pointer-events-none" />
       
-      <div className="container mx-auto px-6 mb-24 text-center">
+      <div className="container mx-auto px-6 mb-12 text-center">
         <motion.span 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
