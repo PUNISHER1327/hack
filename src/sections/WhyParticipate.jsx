@@ -4,6 +4,10 @@ import { FaUsers, FaBriefcase, FaCertificate, FaRocket, FaGift, FaUserTie, FaGlo
 
 const BentoCard = ({ icon: Icon, title, description, size, color }) => (
   <motion.div
+    initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
+    whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.5 }}
     whileHover={{ y: -5, scale: 1.01 }}
     className={`glass-panel p-8 flex flex-col justify-between group cursor-default relative overflow-hidden ${size}`}
   >
@@ -26,17 +30,19 @@ const WhyParticipate = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <motion.span 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, filter: 'blur(5px)' }}
+            whileInView={{ opacity: 1, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="font-orbitron text-orangeAccent tracking-[0.5em] text-sm font-bold uppercase mb-4 block"
           >
             THE EXPERIENCE
           </motion.span>
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.1 }}
             className="font-bebas text-7xl md:text-8xl text-whiteText leading-none"
           >
             WHY <span className="text-glow-blue text-neonBlue">PARTICIPATE?</span>

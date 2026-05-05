@@ -92,10 +92,15 @@ const Navbar = () => {
 
 
           </div>
-          <button className="px-6 py-2 bg-transparent border border-neonBlue text-neonBlue font-orbitron text-sm tracking-widest rounded-sm hover:bg-neonBlue hover:text-white transition-all duration-300 glow-blue overflow-hidden relative group">
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfFqr-ZQb8Ib2t7UvzclOBZCleTzV43jqR3EcDFq9u46SpSHw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 bg-transparent border border-neonBlue text-neonBlue font-orbitron text-sm tracking-widest rounded-sm hover:bg-neonBlue hover:text-white transition-all duration-300 glow-blue overflow-hidden relative group block"
+          >
             <span className="relative z-10">REGISTER</span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-          </button>
+          </a>
         </div>
       </div>
     </motion.nav>

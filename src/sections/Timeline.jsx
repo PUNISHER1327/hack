@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const timelineData = [
   { stage: '01', title: 'REGISTRATIONS START', date: 'MAY 04, 2026', desc: 'Secure your spot and select your domains.', side: 'left' },
-  { stage: '02', title: 'IDEA SUBMISSION DEADLINE', date: 'MAY 17, 2026', desc: 'Submit your innovative idea PPT via the official portal.', side: 'right' },
+  { stage: '02', title: 'IDEA SUBMISSION DEADLINE', date: 'MAY 14, 2026', desc: 'Submit your innovative idea PPT via the official portal.', side: 'right' },
   { stage: '03', title: 'SHORTLIST ANNOUNCEMENT', date: 'MAY 18, 2026', desc: 'Selected teams will be notified for the next phase.', side: 'left' },
   { stage: '04', title: 'FINAL REGISTRATION & PAYMENT', date: 'MAY 20, 2026', desc: 'Complete the registration fee payment of ₹600 per team.', side: 'right' },
   { stage: '05', title: 'THE GRAND FINALE', date: 'MAY 22-23, 2026', desc: 'The 24-hour on-site coding marathon at PESCE campus.', side: 'left' },

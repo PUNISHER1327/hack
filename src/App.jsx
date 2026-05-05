@@ -13,6 +13,7 @@ import Mentors from './sections/Mentors';
 import Committee from './sections/Committee';
 import RuleBook from './sections/RuleBook';
 import Sponsors from './sections/Sponsors';
+import Banner from './sections/Banner';
 import VenueExperience from './sections/VenueExperience';
 import Archives from './sections/Archives';
 import FAQ from './sections/FAQ';
@@ -59,6 +60,7 @@ function App() {
       </div>
 
       <Hero />
+      <Banner />
       <Sponsors />
       <About />
       <PrizePool />

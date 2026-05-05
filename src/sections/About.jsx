@@ -11,8 +11,8 @@ const About = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-20 items-start">
         {/* Left Side: Heading */}
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -50, filter: 'blur(10px)' }}
+          whileInView={{ opacity: 1, x: 0, filter: 'blur(0px)' }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
           className="relative"
@@ -31,8 +31,8 @@ const About = () => {
 
         {/* Right Side: Description */}
         <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 50, filter: 'blur(10px)' }}
+          whileInView={{ opacity: 1, x: 0, filter: 'blur(0px)' }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex flex-col gap-8"

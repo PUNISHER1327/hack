@@ -6,22 +6,22 @@ const Committee = () => {
     {
       title: "ORGANIZING COMMITTEE",
       members: [
-        { name: "Dr. R. M. Mahalinge Gowda", role: "Principal, PESCE", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Principal" },
-        { name: "Dr. M. C. Padma", role: "HOD, Dept of CSE", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=HOD" },
+        { name: "Dr. R. M. Mahalinge Gowda", role: "Principal, PESCE", image: "/committee/principal.png" },
+        { name: "Dr. M. C. Padma", role: "HOD, Dept of CSE", image: "/committee/hod.png" },
       ]
     },
     {
       title: "FACULTY COORDINATORS",
       members: [
-        { name: "Prof. Puneeth P", role: "Assistant Professor", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Puneeth" },
-        { name: "Prof. Shruthi G", role: "Assistant Professor", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Shruthi" },
+        { name: "Prof. Puneeth P", role: "Assistant Professor", image: "/committee/faculty1.png" },
+        { name: "Prof. Shruthi G", role: "Assistant Professor", image: "/committee/faculty2.png" },
       ]
     },
     {
       title: "STUDENT LEADS",
       members: [
-        { name: "Student Name 1", role: "Lead Organizer", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Student1" },
-        { name: "Student Name 2", role: "Technical Lead", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Student2" },
+        { name: "Student Name 1", role: "Lead Organizer", image: "/committee/student1.png" },
+        { name: "Student Name 2", role: "Technical Lead", image: "/committee/student2.png" },
       ]
     }
   ];

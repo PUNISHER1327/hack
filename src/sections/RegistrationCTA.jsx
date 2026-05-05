@@ -64,10 +64,15 @@ const RegistrationCTA = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-          <button className="px-12 py-6 bg-orangeAccent text-white font-orbitron font-black tracking-[0.4em] rounded-sm hover:scale-105 active:scale-95 transition-all glow-orange group relative overflow-hidden text-lg">
-            <span className="relative z-10 flex items-center gap-4">REGISTER NOW <FaArrowRight /></span>
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfFqr-ZQb8Ib2t7UvzclOBZCleTzV43jqR3EcDFq9u46SpSHw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-12 py-6 bg-orangeAccent text-white font-orbitron font-black tracking-[0.4em] rounded-sm hover:scale-105 active:scale-95 transition-all glow-orange group relative overflow-hidden text-lg block text-center"
+          >
+            <span className="relative z-10 flex items-center justify-center gap-4">REGISTER NOW <FaArrowRight /></span>
             <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
-          </button>
+          </a>
         </div>
         
         <p className="mt-12 font-orbitron text-xs text-mutedText tracking-[0.3em] uppercase">

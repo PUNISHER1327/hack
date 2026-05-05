@@ -43,7 +43,7 @@ const RuleBook = () => {
       points: [
         "Step 1: Registrations start from 4th May 2026. Open Innovation format.",
         "Domain selected during registration cannot be changed later.",
-        "Step 2: Submit idea PPT before 17th May 2026 via official portal.",
+        "Step 2: Submit idea PPT before 14th May 2026 via official portal.",
         "Step 3: Shortlisted teams announced on 18th May 2026.",
         "Step 4: Payment of ₹600 per team by 20th May 2026.",
         "Top 60 teams will be selected for the final offline Hackathon (20 teams from each domain)."
