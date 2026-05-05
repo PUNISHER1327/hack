@@ -10,9 +10,11 @@ const MentorCard = ({ name, role, expertise, image }) => (
     <div className="relative mb-8 inline-block">
       <div className="w-32 h-32 rounded-full border-2 border-neonBlue p-1 group-hover:glow-blue transition-all duration-500 overflow-hidden">
         <div className="w-full h-full rounded-full bg-surface/50 flex items-center justify-center text-neonBlue text-4xl overflow-hidden relative">
-          <img src={image} alt={name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-          {/* Placeholder if no image */}
-          {!image && <div className="font-bebas text-6xl opacity-20">{name[0]}</div>}
+          {image ? (
+            <img src={image} alt={name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          ) : (
+            <div className="font-bebas text-6xl opacity-20">{name ? name[0] : "Y"}</div>
+          )}
         </div>
       </div>
       <div className="absolute -bottom-2 right-2 w-8 h-8 rounded-full bg-orangeAccent flex items-center justify-center text-white text-xs glow-orange">
@@ -20,12 +22,11 @@ const MentorCard = ({ name, role, expertise, image }) => (
       </div>
     </div>
     
-    <h3 className="font-orbitron text-xl font-bold text-whiteText mb-1 uppercase tracking-tighter">{name}</h3>
+    <h3 className="font-orbitron text-xl font-bold text-whiteText mb-1 uppercase tracking-tighter">{name || "JUDGE / MENTOR"}</h3>
     <p className="text-neonBlue font-orbitron text-[10px] tracking-widest mb-4 uppercase">{role}</p>
     <p className="text-sm text-mutedText leading-relaxed mb-6 italic">{expertise}</p>
     
     <div className="flex justify-center gap-4 text-white/40">
-
       <a href="#" className="hover:text-neonBlue transition-colors"><FaTwitter /></a>
     </div>
   </motion.div>
@@ -33,10 +34,10 @@ const MentorCard = ({ name, role, expertise, image }) => (
 
 const Mentors = () => {
   const mentors = [
-    { name: "Dr. Punith Kumar M B", role: "FACULTY CO-ORDINATOR", expertise: "AI & Data Science Expert", image: "" },
-    { name: "Dr. Vinaykumar H S", role: "FACULTY CO-ORDINATOR", expertise: "IoT & Systems Specialist", image: "" },
-    { name: "Sonal H", role: "STUDENT CO-ORDINATOR", expertise: "Full Stack Developer", image: "" },
-    { name: "Ashwin S", role: "STUDENT CO-ORDINATOR", expertise: "Cloud & Devops Enthusiast", image: "" },
+    { name: "", role: "Bangalore YP Section", expertise: "Expert Mentor & Judge", image: "" },
+    { name: "", role: "Bangalore YP Section", expertise: "Expert Mentor & Judge", image: "" },
+    { name: "", role: "Bangalore YP Section", expertise: "Expert Mentor & Judge", image: "" },
+    { name: "", role: "Bangalore YP Section", expertise: "Expert Mentor & Judge", image: "" },
   ];
 
   return (

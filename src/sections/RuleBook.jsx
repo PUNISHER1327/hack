@@ -33,7 +33,7 @@ const RuleBook = () => {
       icon: FaUsers,
       title: "Team Composition",
       points: [
-        "Each team must consist of 3 to 4 members.",
+        "Each team must consist of 2 to 4 members.",
         "Teams may include students from the same or different institutions and disciplines."
       ]
     },

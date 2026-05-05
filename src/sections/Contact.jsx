@@ -31,8 +31,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-orbitron text-whiteText font-bold mb-1 tracking-widest text-sm">FACULTY COORDINATORS</h4>
-                  <p className="text-mutedText text-sm mb-1">Dr. Punith Kumar M B: +91 94488 47444</p>
-                  <p className="text-mutedText text-sm">Dr. Vinaykumar H S: +91 94812 73384</p>
+                  <p className="text-mutedText text-sm mb-1">Dr. Punith Kumar M B</p>
+                  <p className="text-mutedText text-sm">Dr. Vinaykumar H S</p>
                 </div>
               </div>
 
@@ -42,8 +42,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-orbitron text-whiteText font-bold mb-1 tracking-widest text-sm">STUDENT COORDINATORS</h4>
-                  <p className="text-mutedText text-sm mb-1">Sonal H: +91 95917 87616</p>
-                  <p className="text-mutedText text-sm">Ashwin S: +91 89517 28170</p>
+                  <p className="text-mutedText text-sm mb-1">Sonal H</p>
+                  <p className="text-mutedText text-sm">Ashwin S</p>
                 </div>
               </div>
 
