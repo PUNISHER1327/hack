@@ -31,27 +31,27 @@ const Sponsors = () => {
 
       {/* Marquee Wrapper */}
       <div className="relative flex overflow-hidden py-12 bg-surface/30 backdrop-blur-sm border-y border-white/5">
-        <div className="animate-marquee flex items-center gap-64 whitespace-nowrap px-20">
+        <div className="animate-marquee flex items-center gap-32 whitespace-nowrap px-20">
           {/* Repeat multiple times to ensure full width coverage */}
           {[...sponsors, ...sponsors, ...sponsors, ...sponsors, ...sponsors].map((s, i) => (
             <div key={i} className="flex flex-col items-center justify-center transition-all duration-500 hover:scale-110 cursor-pointer">
               <img 
                 src={s.logo} 
                 alt={s.name} 
-                className={`h-32 md:h-48 w-auto object-contain opacity-90 hover:opacity-100 transition-all ${s.name === "PESCE" ? "scale-125" : ""}`} 
+                className={`h-16 md:h-24 w-auto object-contain opacity-90 hover:opacity-100 transition-all`} 
               />
-              <span className="font-orbitron text-sm md:text-base text-white/40 mt-10 tracking-[0.5em] font-bold">{s.name.toUpperCase()}</span>
+              <span className="font-orbitron text-xs md:text-sm text-white/40 mt-6 tracking-[0.5em] font-bold">{s.name.toUpperCase()}</span>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="mt-10 text-center">
+      {/* <div className="mt-10 text-center">
         <p className="text-mutedText font-orbitron text-sm mb-6">WANT TO PARTNER WITH US?</p>
         <button className="px-10 py-4 border border-neonBlue text-neonBlue font-orbitron text-xs tracking-widest hover:bg-neonBlue hover:text-white transition-all glow-blue">
           BECOME A SPONSOR
         </button>
-      </div>
+      </div> */}
 
       <style jsx>{`
         @keyframes marquee {

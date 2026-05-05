@@ -10,9 +10,11 @@ import WhyParticipate from './sections/WhyParticipate';
 import Timeline from './sections/Timeline';
 import TracksAndChallenges from './sections/TracksAndChallenges';
 import Mentors from './sections/Mentors';
+import Committee from './sections/Committee';
 import RuleBook from './sections/RuleBook';
 import Sponsors from './sections/Sponsors';
 import VenueExperience from './sections/VenueExperience';
+import Archives from './sections/Archives';
 import FAQ from './sections/FAQ';
 import RegistrationCTA from './sections/RegistrationCTA';
 import Contact from './sections/Contact';
@@ -66,7 +68,9 @@ function App() {
       <RuleBook />
       <TracksAndChallenges />
       <Mentors />
+      <Committee />
       <VenueExperience />
+      <Archives />
       <FAQ />
       <RegistrationCTA />
       <Contact />

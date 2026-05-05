@@ -17,7 +17,16 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Domains', href: '#domains' },
     { name: 'Timeline', href: '#timeline' },
+    { name: 'Committee', href: '#committee' },
     { name: 'Sponsors', href: '#sponsors' },
+    { 
+      name: 'Archives', 
+      href: '#archives',
+      subLinks: [
+        { name: 'Problem Statements', href: '#problem-statements' },
+        { name: 'Photos', href: '#photos' }
+      ]
+    },
     { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -42,16 +51,38 @@ const Navbar = () => {
         </div>
 
         {/* Center: Nav Links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="font-orbitron text-sm font-medium tracking-widest text-mutedText hover:text-electricBlue transition-colors relative group"
-            >
-              {link.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electricBlue transition-all duration-300 group-hover:w-full" />
-            </a>
+            <div key={link.name} className="relative group">
+              <a
+                href={link.href}
+                className="font-orbitron text-[11px] lg:text-xs font-medium tracking-widest text-mutedText hover:text-electricBlue transition-colors relative flex items-center gap-1"
+              >
+                {link.name}
+                {link.subLinks && (
+                  <svg className="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                )}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electricBlue transition-all duration-300 group-hover:w-full" />
+              </a>
+
+              {link.subLinks && (
+                <div className="absolute top-full left-0 mt-4 w-48 bg-surface/95 backdrop-blur-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <div className="py-2">
+                    {link.subLinks.map((sub) => (
+                      <a
+                        key={sub.name}
+                        href={sub.href}
+                        className="block px-6 py-3 font-orbitron text-[10px] tracking-widest text-mutedText hover:text-white hover:bg-white/5 transition-all"
+                      >
+                        {sub.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           ))}
         </div>
 

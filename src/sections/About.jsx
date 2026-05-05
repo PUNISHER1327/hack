@@ -8,7 +8,7 @@ const About = () => {
       <div className="absolute top-0 right-0 w-1/3 h-full bg-grid opacity-10" />
       <div className="absolute top-1/4 left-10 w-24 h-24 border border-neonBlue/20 rounded-lg rotate-45 animate-pulse" />
       
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-20 items-start">
         {/* Left Side: Heading */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}

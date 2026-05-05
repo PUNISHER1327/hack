@@ -53,9 +53,9 @@ const WhyParticipate = () => {
           />
           <BentoCard 
             size="md:col-span-1 md:row-span-1"
-            icon={FaBriefcase}
-            title="Internships"
-            description="Top performers get exclusive opportunities to intern with our partner companies."
+            icon={FaUserTie}
+            title="Industry Connect"
+            description="Get direct access to top industry leaders and recruiters to accelerate your career growth."
             color="orange"
           />
           <BentoCard 
